@@ -52,7 +52,7 @@
 			<img src="/img/head.png" class="js-avatar">
 		</a>
 		<hgroup>
-		  <h1 class="header-author"><a href="/">TBA</a></h1>
+		  <h1 class="header-author"><a href="/">一芝</a></h1>
 		</hgroup>
 		
 
@@ -74,6 +74,8 @@
             
     			
             
+    			
+    			<a q-on="click: openSlider(e, 'aboutme')" href="javascript:void(0)">我</a>
     			
             
 		</nav>
@@ -104,7 +106,7 @@
 				<img src="/img/head.png" class="js-avatar">
 			</div>
 			<hgroup>
-			  <h1 class="header-author js-header-author">TBA</h1>
+			  <h1 class="header-author js-header-author">一芝</h1>
 			</hgroup>
 			
 			
@@ -417,6 +419,8 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
       
     
       
+      
+      
     
     
 
@@ -428,6 +432,8 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
       
         
       
+      <li style="width: 100%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">我</a></li>
+      
         
     </ul>
   </div>
@@ -436,6 +442,12 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
 
     
 
+    
+    	<section class="tools-section tools-section-me" q-show="aboutme">
+  	  	
+  	  		<div class="aboutme-wrap" id="js-aboutme">A Beautiful Girl &lt;br&gt;Birthdate 2020-10-22 &lt;br&gt; Time 02:53 &lt;br&gt;Father 张耀华 &lt;br&gt;Mather 赵胜男</div>
+  	  	
+    	</section>
     
   </div>
   
